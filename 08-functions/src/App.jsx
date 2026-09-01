@@ -20,11 +20,12 @@ const App = () => {
           inputChanging(elem.target.value);
         }}
       />
-
-      <div className="Box" onMouseMove={()=>{
-        console.log('Nachooo')
-      }}></div>
-      
+      <div
+        className="Box"
+        onMouseMove={() => {
+          console.log("Nachooo");
+        }}
+      ></div>
     </div>
   );
 };
